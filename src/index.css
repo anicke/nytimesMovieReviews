@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #F3F1EE  
+}
+
+.button.custom-primary {
+  background-color: #F8AC00;
+  color: #000;
+  font-weight: bold;
+}
+
+.media {
+  padding: 10px;
+  background-color: #FFFFFF;  
+}
+
+.hero-body {
+  background: #ffffff;
+  font-weight: bold;
+  margin: 10px;
+  max-height: 100px;
+  padding-bottom: 10px;
+  box-shadow: 0 6px 4px -4px rgba(0,0,0,0.2);
+}
