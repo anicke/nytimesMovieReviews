@@ -10,6 +10,6 @@ Requirements: node.js and git
 * Request a [API key](https://developer.nytimes.com/signup) from the New York times for the "Movie Reviews API".
 * Create a file in the repo root with the name ".env"
 * Put the following line in the ".env" file:
-  `REACT_APP_API_KEY=<INSERT_YOUR_SECRET_API_KEY_HERE!!!>`
+  `REACT_APP_API_KEY=<INSERT_YOUR_SECRET_API_KEY_HERE!!!>` (and insert your own api key as instructed)
 * Install project dependencies run `yarn` or `npm install` in the repo root
 * Start the development server. `yarn start` or `npm start`
