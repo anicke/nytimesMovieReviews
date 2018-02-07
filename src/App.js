@@ -51,6 +51,7 @@ class App extends Component {
             this.setState({
                 hasMore: res.body.has_more,
                 loading: false,
+                searchDone: true,
                 headerText: headerText,
                 reviews: res.body.results,
                 errStatus: ""
@@ -98,10 +99,8 @@ class App extends Component {
                                     onSubmit={this.getReviews.bind(this)}
                                     onChange={this.onQueryChange.bind(this)}
                                     value={this.state.searchString} />
-                                <h3 className="title is-3">
-                                    {this.state.headerText}
-                                </h3>
                                 <ReviewList
+                                    headerText={this.state.headerText}
                                     searchDone={this.state.searchDone}
                                     reviews={this.state.reviews} />
                                 <ShowMore
